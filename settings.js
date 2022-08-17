@@ -26,19 +26,20 @@ global.language = spanyol  //change indonesia to english if you don't understand
 // Other
 // Other
 global.botname = "BOT-MD" //namabot kalian
+
 global.ownername= "All Rights Reserved | BOT-MD" //nama kalian
 global.myweb ="https://dylan-rest.herokuapp.com" //bebas asal jan hapus
-global.youtube = "https://dylan-rest.herokuapp.com" //bebas asal jan hapus
+global.groupBot = "https://chat.whatsapp.com/GxjXaj3SxNDAWh8oMQ5bkg" //bebas asal jan hapus
 global.myweb2 = "https://dylan-rest.herokuapp.com" //bebas
-global.email = "xomisaj847@kaseig.com" //bebas
+global.email = "" //bebas
 global.region = "Spanyol" //bebas
 global.timezone = 'America/Bogota' //  timezone wib
 global.premium = ['17054132366'] //premium user
 global.owner = ["573508770421"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = "17054132366" // nomor wa kalian
 global.ownernomerr = "+17054132366" //nmr wa kalian
-global.thumbnail = "./image/logo.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
-global.donasi = "./image/qris.jpg" // foto donasi di folder image
+global.thumbnail = "./image/bot.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
+global.donasi = "./image/bot.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.packname = '© All Rights Reserved | BOT-MD' //sticker wm ubah
 global.author = 'Team' //sticker wm ganti nama kalian
