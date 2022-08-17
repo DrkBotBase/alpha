@@ -1911,9 +1911,18 @@ const buttojns = [
 						} else alpha.sendButDoc(m.chat, ini_anu,  '© ' + ownername, botname , ownername, `WhatsApp Bot Multi Device`, time, pp_bot, pp_bot, buttojns, [ownernya, ini_mark, m.sender], { quoted: ftroli})
 					}
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(m.chat, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}], { userJid: m.chat, quoted: m } )
-							}
-						if(typemenu == 'templateTenor'){
+
+  await alpha.send5ButLoc(
+    m.chat,
+    lang.menunya(salam, pushname, botname),
+    `© ${ownername}`,
+    pp_bot,
+    [
+      {"urlButton": {"displayText": "Grupo Oficial","url": `${groupBot}`}},
+      {"quickReplyButton": {"displayText": "List Command","id": 'command'}}
+    ],
+    { userJid: m.chat, quoted: m } )
+}						if(typemenu == 'templateTenor'){
 							alpha.send5ButGif(m.chat, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
