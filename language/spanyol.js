@@ -664,9 +664,9 @@ exports.videoLimit = () => {
 exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
-exports.menunya = (salam, pushname, botname) =>{
-	return`Hola hermano ${pushname} 👋 seguro ${salam} , 
-yo ${botname}, este bot es Whatsapp Multi-Device Beta.
+exports.menunya = (pushname, botname) =>{
+	return`Hola ${pushname} 👋 
+Soy ${botname}, este es mi menú
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
