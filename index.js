@@ -1914,7 +1914,7 @@ const buttojns = [
 
   await alpha.send5ButLoc(
     m.chat,
-    lang.menunya(salam, pushname, botname),
+    lang.menunya(pushname, botname),
     `© ${ownername}`,
     pp_bot,
     [
